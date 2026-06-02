@@ -24,6 +24,7 @@ export interface ProposalSection {
   rows: ProposalRow[];
   note?: string;
   highlightNote?: string;
+  showML?: boolean;
 }
 
 export interface ProposalState {

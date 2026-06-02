@@ -47,6 +47,7 @@ export const initialProposalState: ProposalState = {
       title: "EQUIPAMIENTO TÉCNICO",
       subtitle: "Aporte de Zapateo",
       accent: "#6a9bcc",
+      showML: false,
       description:
         "Equipamiento técnico de DJ que Zapateo contrata por evento a través de proveedor fijo.",
       columns: ["costoEvento", "compra"],
@@ -81,6 +82,7 @@ export const initialProposalState: ProposalState = {
       title: "PRODUCCIÓN ARTÍSTICA",
       subtitle: "Servicios creativos y de comunicación",
       accent: "#788c5d",
+      showML: false,
       description:
         "Servicios creativos y de comunicación a cargo de Zapateo. No son infraestructura — son parte de la identidad y la narrativa del evento.",
       columns: ["costoEvento"],
